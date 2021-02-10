@@ -1,0 +1,14 @@
+name: fMoneyStats
+version: 1.0
+main: com.xenixi.cambridgecraftmc.plugins.fmoneystats.main.MoneyStats
+author: Kobe McManus
+
+commands:
+    ftotal:
+        description: View your faction's total value
+        aliases: [fvalue]
+        default: true
+    ftop:
+        description: View the server's top factions!
+        aliases: [fstatus]
+        default: true
